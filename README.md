@@ -15,6 +15,6 @@ See an overview of the text [here](https://dickgrune.com/Books/MCD_1st_Edition/)
 In short, it wasn't available from the RIT library. As to why I chose this book specifically, I found it to be a good mix of refresher on material I already know, practical code examples, and math/theory. I don't need beginner introductions to basic concepts, but I do want advanced concepts presented alongside the basic information. I feel this text can present that to me, and so far I believe it is doing the job.
 
 ## Milestones
-2/9/18  Chapter 1 (Introduction) completed
-2/23/18 Section 2.1 (Lexical Analysis) completed
-2/28/18 Section 2.1 code transcribed, tested, and uploaded to GitHub
+* 2/9/18  Chapter 1 (Introduction) completed
+* 2/23/18 Section 2.1 (Lexical Analysis) completed
+* 2/28/18 Section 2.1 code transcribed, tested, and uploaded to GitHub
