@@ -18,3 +18,4 @@ In short, it wasn't available from the RIT library. As to why I chose this book 
 * 2/9/18  Chapter 1 (Introduction) completed
 * 2/23/18 Section 2.1 (Lexical Analysis) completed
 * 2/28/18 Section 2.1 code transcribed, tested, and uploaded to GitHub
+* 3/13/18 Section 2.2.4 (Creating a Top-Down Parser Automatically) completed
