@@ -21,3 +21,4 @@ In short, it wasn't available from the RIT library. As to why I chose this book 
 * 3/13/18 Section 2.2.4 (Creating a Top-Down Parser Automatically) completed
 * 3/14/18 Section 2.2.5 (Creating a Bottom-Up Parser Automatically) completed
 * 3/14/18 Chapter 2 completed
+* 3/27/18 Chapter 2 code yacc/bison code transcribed and uploaded to GitHub

@@ -1,0 +1,12 @@
+To solve any problems with command line tools or commands:
+
+first:
+    $ xcode-select --install
+May fix some issues, because xcode is in charge of many pre-installed
+instances of language version/toolchains
+
+Next:
+    $ brew update
+    $ brew upgrade
+First one updates homebrew, the next cmd updates each tool/language/toolchain 
+currently maintained by brew
