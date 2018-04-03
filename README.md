@@ -3,7 +3,7 @@ Programs transcribed and modified from the text Modern Compiler Design by Grune
 
 ## Why does this repo exist?
 As part of my education in compiler engineering, I am working my way through the above text, and transcribing the code contained therein. Doing this, I hope to accomplish 3 goals:
-* Refresh my knowledge of C programming styles and conventions. I have experience with C, and to a larger extent, C++, but given that these are often the defacto languages for compiler engineering, I will refamiliarize myself with the language and also the practical aspects of compiling and organizing the code itself.
+* Refresh my knowledge of C programming styles and conventions. I have experience with C, and to a larger extent, C++, but given that these are often the de-facto languages for compiler engineering, I will refamiliarize myself with the language and also the practical aspects of compiling and organizing the code itself.
 * Expand the truncated programming style in the book. Easier to read this way.
 * Complete the ideas presented in the chapters, by way of exercises left to the reader, or unimplemented functions due to space constraints.
 
@@ -22,6 +22,7 @@ In short, it wasn't available from the RIT library at the time of my choosing a 
 * 3/14/18 Section 2.2.5 (Creating a Bottom-Up Parser Automatically) completed
 * 3/14/18 Chapter 2 completed
 * 3/27/18 Chapter 2 code yacc/bison code transcribed and uploaded to GitHub
-* 3/30/18 Chapter 3.1 (Attribute Grammars) completed
-* 4/3/18 Chapter 3.2 (Manual Methods) completed
+* 3/30/18 Section 3.1 (Attribute Grammars) completed
+* 4/3/18 Section 3.2 (Manual Methods) completed
 * 4/3/18 Chapter 3 (Annotating the Abstract Syntax Tree) completed
+* 4/3/18 Section 3.1 / 3.2 programs transcribed and uploaded to GitHub
