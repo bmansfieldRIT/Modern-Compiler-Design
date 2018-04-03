@@ -12,7 +12,7 @@ Modern Compiler Design covers aspects of compiler design from program input and 
 See an overview of the text [here](https://dickgrune.com/Books/MCD_1st_Edition/).
 
 ## Why not the Dragon Book?
-In short, it wasn't available from the RIT library. As to why I chose this book specifically, I found it to be a good mix of refresher on material I already know, practical code examples, and math/theory. I don't need beginner introductions to basic concepts, but I do want advanced concepts presented alongside the basic information. I feel this text can present that to me, and so far I believe it is doing the job.
+In short, it wasn't available from the RIT library at the time of my choosing a text. As to why I chose this book specifically, I found it to be a good mix of refresher on material I already know, practical code examples, and math/theory. I don't need beginner introductions to basic concepts, but I do want advanced concepts presented alongside the basic information. I feel this text can present that to me, and so far I believe it is doing the job.
 
 ## Milestones
 * 2/9/18  Chapter 1 (Introduction) completed
@@ -22,3 +22,6 @@ In short, it wasn't available from the RIT library. As to why I chose this book 
 * 3/14/18 Section 2.2.5 (Creating a Bottom-Up Parser Automatically) completed
 * 3/14/18 Chapter 2 completed
 * 3/27/18 Chapter 2 code yacc/bison code transcribed and uploaded to GitHub
+* 3/30/18 Chapter 3.1 (Attribute Grammars) completed
+* 4/3/18 Chapter 3.2 (Manual Methods) completed
+* 4/3/18 Chapter 3 (Annotating the Abstract Syntax Tree) completed
