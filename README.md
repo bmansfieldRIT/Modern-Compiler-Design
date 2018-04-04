@@ -26,3 +26,5 @@ In short, it wasn't available from the RIT library at the time of my choosing a 
 * 4/3/18 Section 3.2 (Manual Methods) completed
 * 4/3/18 Chapter 3 (Annotating the Abstract Syntax Tree) completed
 * 4/3/18 Section 3.1 / 3.2 programs transcribed and uploaded to GitHub
+* 4/4/18 Section 4.1 (Interpretation) completed
+* 4/4/18 Section 4.1 code transcribed and uploaded to GitHub
