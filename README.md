@@ -3,7 +3,7 @@ Programs transcribed and modified from the text Modern Compiler Design by Grune
 
 ## Why does this repo exist?
 As part of my education in compiler construction, I am working my way through the above text, and transcribing the code contained therein. Doing this, I hope to accomplish 3 goals:
-* Refresh my knowledge of C programming styles and conventions. I have experience with C, and to a larger extent, C++, but given that these are often the de-facto languages for compiler engineering, I will refamiliarize myself with the language and also the practical aspects of compiling and organizing the code itself.
+* Refresh my knowledge of C programming styles and conventions. I have experience with C, and to a larger extent, C++, but given that these are often the de-facto languages for compiler engineering, I will re-familiarize myself with the language and also the practical aspects of compiling and organizing the code itself.
 * Expand the truncated programming style in the book. Easier to read this way.
 * Complete the ideas presented in the chapters, by way of exercises left to the reader, or unimplemented functions due to space constraints.
 
@@ -31,3 +31,6 @@ In short, it wasn't available from the RIT library at the time of my choosing a 
 * 4/09/18 Section 4.2 (Code Generation) completed
 * 4/10/18 Section 4.3 (Assemblers, Linkers, and Loaders) completed
 * 4/10/18 Chapter 4 (Processing the Intermediate Code) completed
+* 4/12/18 Section 5.1 (Data Allocation With Explicit Deallocation) completed
+* 4/12/18 Section 5.2 (Data Allocation With Implicit Deallocation) completed
+* 4/12/18 Chapter 5 (Memory Management) completed
