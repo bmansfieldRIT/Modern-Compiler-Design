@@ -1,14 +1,23 @@
 Compilation - fast execution
+
 Interpretation - slow execution
 
+
 Regular expressions -> lexical analysis
+
 Context Free Grammars -> Syntax Analysis
+
 Attribute Grammars -> used for context, could be used for code generation/interpretation, but there are better ways
+
 Code Generation -> messy when manual, but can be automated - no widely accepted formalisms
 
+
 Program generators
+
 regexp ->lexical analysis
+
 grammar -> parsers
+
 machine descriptions -> code generation
 
 Pros: more reliable, easier to debug, correctness, modifiability, formal descriptions can generate many useful programs
