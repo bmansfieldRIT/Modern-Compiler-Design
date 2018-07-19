@@ -1,6 +1,6 @@
+## Chapter 1
 * Compilation - fast execution
 * Interpretation - slow execution
-
 
 * Regular expressions -> lexical analysis
 * Context Free Grammars -> Syntax Analysis
@@ -106,3 +106,44 @@
 * niave memory management, can be quadratic
 * good linear time heuristics/solutions avilable for all these problems
   
+#### Portability
+* portability = running a compiler on any machine
+* retargetability = generating code for any machine
+* compiler written in good style in modern language = portable
+* replaceable back end = retargetable
+* more effort to replace back end, less retargetable
+* can make a backend from machine descriptions
+
+#### Optimizations
+* easier to make correct code faster than fast code correct
+* ex. activation records - collection of data on stack, about an activated unterminated routine
+
+#### Context Free Grammars
+* essential formalism for describing language structures
+* mostly describe syntactic structure, but contains semantic info as well
+* also regular grammars, and attribute grammars
+
+* grammar = set of production rule + start symbol
+* production rule defines a named syntactic construct
+  - LHS -> RHS
+  - name -> possible form (terminal + non-terminal sysmbols)
+* terminal = token
+
+Conventions:
+* nonterminals - A, B, C
+* terminals - x, y, z
+* sequences of grammar symbols - alpha, beta
+* lowercase - themselves, as terminals
+* empty symbol
+
+Production Process
+* Sequential form is central data structure in production process
+  - string of grammar symbols
+  - in tree form, gives syntacic info -> production tree
+* leftmost derivation - leftmost symbol is always derived first
+* recursion is essential to production process to produce infinite set of strings
+
+Extended Forms:
+* can combine rules 
+  - N -> a | b | c
+* Backus Normal Form (BNF) good for nesting, recursion, bad for optionality, repeating
