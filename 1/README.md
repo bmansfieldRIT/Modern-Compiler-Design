@@ -2,6 +2,7 @@
 * Compilation - fast execution
 * Interpretation - slow execution
 
+
 * Regular expressions -> lexical analysis
 * Context Free Grammars -> Syntax Analysis
 * Attribute Grammars -> used for context, could be used for code generation/interpretation, but there are better ways
@@ -147,3 +148,59 @@ Extended Forms:
 * can combine rules 
   - N -> a | b | c
 * Backus Normal Form (BNF) good for nesting, recursion, bad for optionality, repeating
+
+* introduce bars ( | ) and three notations
+  - R+ -> One or more R
+  - R? -> optional R
+  - R* -> optional repitition
+  
+Properties of Grammars:
+* terminal N is left recursive if N->N (optional symbols)
+* nonempty terminal N is nullable if we can produce empty sequential form
+* N is useless if it can never produce a terminal string of symbols 
+  ex. exp -> '+' exp | '-' exp
+* grammar chacking software should scan and reject useless non terminals
+* grammar is ambiguous if it produces two different production trees with some leaves, in same order
+* we lose semantics, so unambiguity is essential
+
+Grammar Formalism:
+* symbol - basic unit
+* production rule - V1 -> V2
+* CFG - 4 tuple, G = (Vn, Vt, S, P)
+
+#### Closure Algorithms:
+* many compiler algorithms collect info, draw conclusions/extend info
+* algorithms treated as a class of algorithms
+
+ex. Calling Graph:
+* can find out which procedures are recursive, and which can be expanded inline
+* ignore procedures-as-arguments, anonymous routines, etc.
+
+* closure algorithm has three elements:
+  - Data Definitions - definitions and semantics derived from nature of problem
+  - Inititalizations - 1+ rules for initializing info items, convert problem to info items
+  - Inference Rules - 1+ rules for inferring more info items from given: ex. if Info items I1, I2, ... are present, then II J must be present
+* when all inferences are drawn, we get closure of info set
+
+Ex for calling graph:
+Data Definitions:
+1. Let G be graph of routine nodes. Info items are arrows 
+2. A->B = A calls B directly/indirectly
+Initializations:
+1. If A calls B, arrow from A to B must be present
+Inference Rules:
+1. If A->B, and B->C, then A->C must be present
+
+* add a rule: no adding of arbitrary info items
+  - gets us a least fixed point of closure algorithms
+* above is not really algorithm, more like specification
+* above gets into infinite loop, as no stop conditions are specified
+
+* General Closure Algorithm: if I1, I2 are present, then J must be present
+* Transitive Closure Algorithm: If (A,B) and (B,C) then (A,C)
+
+* if we expand possible inference rules to removal, replacement
+  - Not really proper closure algorithm
+  - More like a recursive function of initial set
+  - May not have a fixed point
+  
